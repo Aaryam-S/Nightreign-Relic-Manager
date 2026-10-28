@@ -1,5 +1,7 @@
 # Nightreign Relic Manager
 
+<img width="988" height="620" alt="image" src="https://github.com/user-attachments/assets/21a8b8ad-0488-4d2b-b992-bc8648fb1887" />
+
 Batch **favorite / unfavorite / sell** relics in an Elden Ring: Nightreign **PC** save, with a dry-run review before anything is written.
 It never edits, rerolls or creates relic effects and never spawns items. It only flips favorite flags, removes the relics you selected,
 and (optionally) credits the Murk for them.
@@ -76,6 +78,8 @@ Files: `app.py` GUI · `theme.py` colours/fonts · `filter_engine.py` rules, pre
 
 ## Credits and license
 
-MIT (see `LICENSE`). Save-format knowledge and the game tables in `data/game/` come from the MIT-licensed
-[alfizari/Elden-Ring-Nightreign-Save-Editor](https://github.com/alfizari/Elden-Ring-Nightreign-Save-Editor) (license copy in `data/game/`).
+MIT (see `LICENSE`). 
+Thanks to [alfizari/Elden-Ring-Nightreign-Save-Editor](https://github.com/alfizari/Elden-Ring-Nightreign-Save-Editor) 
+for save format and game table knowledge.
+
 Unofficial fan tool, not affiliated with or endorsed by FromSoftware or Bandai Namco. Game data belongs to its owners.
