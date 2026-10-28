@@ -1,0 +1,9 @@
+{
+  "_comment": "Effect and relic names/flags are read from data/game/*. Only sell values live here. The numbers below are PLACEHOLDERS from the original spec: nothing in the reference repo contains sell prices. Check the real prices at the Relic Rites in-game, edit them, then set sell_values_verified to true to hide the warning.",
+  "sell_values": {
+    "delicate": 10,
+    "polished": 20,
+    "grand": 50
+  },
+  "sell_values_verified": false
+}

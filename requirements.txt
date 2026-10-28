@@ -1,0 +1,3 @@
+cryptography>=42
+# tkinter ships with python.org / Windows installers; on Linux install your distro's python3-tk
+# pytest is only needed to run the tests
