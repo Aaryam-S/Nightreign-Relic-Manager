@@ -6,8 +6,8 @@ Batch **favorite / unfavorite / sell** relics in an Elden Ring: Nightreign **PC*
 It never edits, rerolls or creates relic effects and never spawns items. It only flips favorite flags, removes the relics you selected,
 and (optionally) credits the Murk for them.
 
-> **Risk:** editing saves can get an online account flagged. Use offline / non-ranked saves, close the game first, and keep your own
-> copy of the save. The app also makes a backup before every write, but that is a safety net, not a substitute.
+> **Risk:** editing saves can get an online account flagged. Use offline saves, close the game first, and keep your own
+> copy of the save. The app also makes a backup before every write.
 
 ## Quick start (Windows)
 
@@ -18,14 +18,6 @@ and (optionally) credits the Murk for them.
 
 Other options: `python app.py [save]` · `python app.py --inspect NR0000.sl2 [--dump relics.json]` (read-only text summary) ·
 `build_exe.bat` (optional standalone `.exe`; keep its `data` folder next to it). Needs `pip install -r requirements.txt` if run manually.
-
-## Before trusting it with a real save (once)
-
-1. Copy your save somewhere safe by hand.
-2. `python app.py --inspect NR0000.sl2`: check that your **character name, Murk, relic count and "N equipped"** look right and every slot
-   says `checksum ok`. If anything looks wrong or equipment says UNKNOWN, **stop**: the game layout probably changed (selling is refused then anyway).
-3. In the GUI, build a rule and press **Preview changes**. Nothing is written until you tick the confirmation box and press Apply.
-4. Start with a small batch and check the result in-game before a big cull.
 
 ## Building a rule
 
