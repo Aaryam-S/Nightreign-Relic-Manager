@@ -275,8 +275,8 @@ class App(_Base):
         self.lbl_expr = ttk.Label(cq, text="", style="Danger.TLabel", wraplength=330)
         self.lbl_expr.grid(row=2, column=0, columnspan=3, sticky="w")
         self.v_expr.trace_add("write", lambda *a: self._check_expr())
-        ttk.Label(cq, wraplength=330, text="Use X, Y, Z, D with AND, OR, NOT and ( ). D can require at least N curses from its list. NOT binds tightest, then AND, then OR. "
-                                           "AND needs a different effect on each side.").grid(row=3, column=0, columnspan=3, sticky="w")
+        ttk.Label(cq, wraplength=330, style="Sub.TLabel",
+                  text="Combine groups with AND, OR, NOT and ( ). Example: (X OR Y) AND NOT D").grid(row=3, column=0, columnspan=3, sticky="w")
         self.v_min = {}
         for r0, name in ((4, "X"), (6, "Y"), (8, "Z"), (10, "D")):
             t = f"t_{name.lower()}"
