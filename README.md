@@ -2,7 +2,7 @@
 
 ![Nightreign Relic Manager](assets/screenshot.png)
 
-Batch **favorite / unfavorite / sell** relics in an Elden Ring: Nightreign **PC** save, with a dry-run review before anything is written.
+Mass sell, favorite or unfavorite relics in an Elden Ring: Nightreign **PC** save, with a dry-run review before anything is written.
 It never edits, rerolls or creates relic effects and never spawns items. It only flips favorite flags, removes the relics you selected,
 and (optionally) credits the Murk for them.
 
